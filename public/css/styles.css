@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@700&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+header {
+    background-color: #EAC926;
+    }
+
+    ul{
+        list-style-type: none;
+    
+    }
+
+
+.logo {
+    width: 25%;
+    height: 25%;
+}
+main {
+    background-color: #ebebeb;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%;
+    padding: 3px; 
+    font-size: 30px;   
+    color:white;
+
+}
+
+.banner {
+
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+.nav {
+    margin-left: -40px;
+}
+
+.busqueda{
+    margin-left: 50px;
+}
+
+.comprar{
+    margin-left: 90px;
+}
+
+footer {
+    text-align: justify;
+    
+}
+
+footer h3 {
+    color:#666;
+}
+
+footer p {
+    color: #666;
+}
+
+.iconos-footer{
+color:#1259c3;
+font-size: 50px;
+}

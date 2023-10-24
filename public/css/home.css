@@ -1,8 +1,32 @@
+main {
+    background-color: var(--color-gris-claro);
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
 main section article {
     background-color: #FFF;
     margin: 10px 10px;
 }
 
+.descuento {
+    color:var(--color-verde);
+    font-size: 16px;
+}
 
+.precio {
+    font-size: 18px;
+}
 
+.descripcion {
+    font-size: 16px;
+}
 
+header nav {
+    margin-top: 10px;
+}
+
+.busqueda {
+    margin-left: 20px;
+}

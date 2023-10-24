@@ -22,22 +22,55 @@ header{
 
 a {
     color: black;
-    cursor:pointer;
+    cursor: pointer;
+    font-size: 12px;
 }
 
-main {
-    background-color: var(--color-gris-claro);
+
+
+footer { 
+    margin-top: 50px; 
     text-align: center;
     
 }
 
-footer { 
-    margin-top: 35px;
-}
-
 footer i {
-    color:#1259c3;
+    color:var(--color-celeste);
     font-size: 2em;
-    margin-bottom: 10 px;
+    margin-bottom: 10px;
     }
     
+
+.burger-menu {
+        background-color: #1259c3;
+        border-radius: 10%;
+        display: inline-block;
+        margin-left: 45%;
+        padding: 6px 9px; 
+        font-size: 30px;   
+        color:white;
+    }
+    
+
+    
+footer h4 {
+        color:#666;
+    }
+    
+footer p {
+        color: #666;
+        font-size:12px
+    }
+
+    footer b{
+        font-size: 12px;
+    }
+
+    footer section article {
+        margin-bottom: 60px;
+    }
+
+h1 {
+    font-size: 24px;
+}   
+

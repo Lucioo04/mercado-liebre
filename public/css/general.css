@@ -42,7 +42,7 @@ footer i {
     
 
 .burger-menu {
-        background-color: #1259c3;
+        background-color: var(--color-celeste);
         border-radius: 10%;
         display: inline-block;
         margin-left: 45%;

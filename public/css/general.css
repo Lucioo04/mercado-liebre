@@ -55,11 +55,11 @@ footer i {
 
     
 footer h4 {
-        color:#666;
+        color:var(--color-gris-oscuro);
     }
     
 footer p {
-        color: #666;
+        color: var(--color-gris-oscuro);
         font-size:12px
     }
 

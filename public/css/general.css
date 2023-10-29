@@ -19,6 +19,7 @@
 
 header{
     background-color: var(--color-amarillo);
+    padding-bottom: 10px;
 }
 
 a {
@@ -46,12 +47,13 @@ footer i {
 .burger-menu {
         background-color: var(--color-celeste);
         border-radius: 10%;
-        display: inline-block;
-        margin-left: 45%;
+        display: block;
+        width: 40px; 
+        margin: auto;
         padding: 6px 9px; 
-        font-size: 30px;   
+        font-size: 20px;  
+        text-align: center; 
         color:white;
-        margin-bottom: 10px;
     }
     
 
@@ -75,9 +77,11 @@ footer p {
 
 h1 {
     font-size: 24px;
+    
 }   
 
 p{
     font-size: 12px;
+    
 }
 

@@ -20,8 +20,36 @@
 header{
     background-color: var(--color-amarillo);
     padding-bottom: 10px;
+    
+}
+.header_logo {
+    display: flex;
+    justify-content: flex-start;
+
 }
 
+form input{
+height: 30px;
+}
+
+.logo {
+    width: 50%;
+}
+
+
+.busqueda {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+} 
+
+.busqueda i {
+
+    position: inherit; ;
+    
+
+}
 a {
     color: black;
     cursor: pointer;
@@ -29,7 +57,9 @@ a {
     
 }
 
-
+a:visited {
+    color:black;
+}
 
 footer { 
     margin-top: 50px; 

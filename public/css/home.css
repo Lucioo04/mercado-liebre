@@ -13,52 +13,65 @@ main section {
     
 }
 
-main section h1 
-{
-    text-align: center;
-}
+
 
 main section article  {
-    display: flex;
+    display:block;
     flex-direction: column;
     justify-content: center;
     background-color: #FFF;
     margin: 10px 10px;
     
+
+    
 }
 
 main section article i {
+    display:block;
     color:var(--color-verde);
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 5px;
     font-size: 14px;
-    margin: 5px 0px 5px 15px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -15px;
+    left:80%
+    }
 
-    
+
+
+.section_article_info_productos {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+border-top: 1px solid var(--color-gris-claro); 
 }
 
-.section_article_info_productos{
-    
-    border-top: 1px solid var(--color-gris-claro);
-}
-.section_article_info_productos p {
-    margin: 5px 0px 5px 15px;
-}
+
 
 
 .descuento {
+    flex: 70%;
     color:var(--color-verde);
     font-size: 16px;
+    margin: 5px 0px 5px 15px;
 }
 
 .precio {
+    flex:30%;
     font-size: 18px;
     color: #000000;
+    margin: 5px 0px 5px 15px;
 }
 
 .descripcion {
     font-size: 16px;
+    margin: 5px 0px 5px 15px;
 }
 
-header nav {
+.menu_navegacion {
     margin-top: 10px;
     display: none;
 }
@@ -72,24 +85,52 @@ header nav {
     text-align: center;
 }
 
-@media (min-width : 361px) {
+@media (min-width : 768px) {
+
+
 body header { 
 
     .burger-menu {
         display: none;
     }
     
-    .nav {
-        display:inline-block;
-        margin-left: 10px;
-    }
-}
-    main section article  {
+    .menu_navegacion {
 
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }   
+    .menu_navegacion ul {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        display: flex;
+        gap:10px;
+    }
+    }
+    
+
+main section article {
+    width: 45%;
     box-shadow: 0px 0px 10px rgb(100,100,100);
     
+}
+
+main section  {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     }
     
 }
+@media (min-width : 1024px) {
+
+    main section article {
+        width:20%;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        
+    }
+}    
 
 

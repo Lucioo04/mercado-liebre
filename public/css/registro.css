@@ -1,0 +1,52 @@
+.registo_main {
+    font-size: 12px;
+}
+
+main form input {
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+}
+
+
+.registro_main form {
+    width: 70%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px
+}
+
+
+.main_form_datos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    
+}
+
+
+.main_form_intereses {
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+
+
+}
+
+.main_form_botones {
+display: flex;
+justify-content: space-around;
+}
+
+.main_form_botones button {
+    border-radius: 10px;
+    background-color: var(--color-celeste);
+    color: #fff;
+    font-weight:700;
+    padding:10px;
+    width:40%;
+    border-color:var(--color-celeste);
+}
